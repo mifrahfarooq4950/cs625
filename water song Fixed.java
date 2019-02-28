@@ -1,0 +1,24 @@
+public class WaterSong Fixed{
+	public Static void main(String [] args) {
+		int waternum = 9;
+	String word = "bottles";
+		while (waternum > 0)
+		{
+			if (waternum == 1)
+			{
+				word = "bottle";
+			}
+			System.out.println(waternum + " " + word + "of water on the wall");
+			System.out.println(waternum + " " + word + "of water");
+			System.out.println("Take one down.");
+			System.out.println("pa it around.");
+			waternum = waternum - 1;
+			else
+			{
+				System.out.println("no more bottles of water on the wall");
+			}
+
+
+		}
+	}
+}
